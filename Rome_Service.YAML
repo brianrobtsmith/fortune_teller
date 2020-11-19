@@ -1,0 +1,16 @@
+service:
+    serviceName: eapiprescriptionrest
+    shortDescription:  A 1 to 2 sentence description describing what the service does
+    businessServiceDomain: This should be one of 8 business services platforms, including: Customer
+    Profile, Data, Scheduling, Universal Identity, Payer, Supply Chain, Pharmacy Services, Payment
+    language:  This should be the programming language.  Options include python, javascript, etc
+    framework:  This should be the framework.  Options include Node.js, etc
+    ownership:
+        productManager:  brian.robert.smith@walgreens.com
+        architect:  orlin.momchev@walgreens.com
+        developmentLead:  ignacio.yus@alliance-healthcare.net
+        businessUnit: Options include RX_Renewal, Digital, eAPI, etc
+        businessUnitTeam:  NEED LIST OF OPTIONS HERE
+interfaces:
+    apiSpecification:
+    eventSpecification:
